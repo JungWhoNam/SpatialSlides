@@ -1,6 +1,11 @@
 # SpatialSlides
 
-SpatialSlides is a system that integrates immersive authoring directly into slide-based presentation workflows.
+<p align="center">
+  <img src="teasor_view.png" width="48%" />
+  <img src="teasor_author.png" width="48%" />
+</p>
+
+SpatialSlides is a system that integrates immersive authoring directly into slide-based presentation workflows. (Left) Viewing Mode: The 3D model synchronizes with the slide. (Right) Authoring Mode: The user captures a snapshot to link a spatial view.
 
 The system is implemented as a decoupled client-server architecture that unifies the workflow:
 
