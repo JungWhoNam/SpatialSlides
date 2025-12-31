@@ -7,7 +7,7 @@
 
 SpatialSlides is a system that integrates immersive authoring directly into slide-based presentation workflows. (Left) Viewing Mode: The 3D model synchronizes with the slide. (Right) Authoring Mode: The user captures a snapshot to link a spatial view.
 
-The system is implemented as a decoupled client-server architecture that unifies the workflow:
+The system employs a decoupled client-server architecture to unify the workflow:
 
 1.  **Python Middleware**: A server that runs on the desktop and manages the PowerPoint instance via the Windows COM API. It monitors the active slide deck for changes.
 2.  **Unity Client**: An immersive XR application (Meta Quest 3) that renders the 3D content.
